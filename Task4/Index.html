@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Циклы, массивы, структуры данных</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container" style="margin-top: 3em">
+    <div class="row">
+        <div class="col-12" style="padding: 0"></div>
+        <div class="col-12"></div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#z1" role="tab" aria-controls="pills-home" aria-selected="true">Задание №1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#z2" role="tab" aria-controls="pills-profile" aria-selected="false">Задание №2</a>
+            </li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="z1" role="tabpanel" aria-labelledby="pills-home-tab"><input id="Ex1" type="button" value="Выполнить" />
+                        <h3>Результат в консоли</h3>
+                        <p>
+                            Написать функцию, преобразующую число в объект. Передавая на вход число от 0 до 999, мы должны получить на выходе объект, в котором в соответствующих свойствах описаны единицы, десятки и сотни. Например, для числа 245 мы должны получить следующий объект: {‘единицы’: 5, ‘десятки’: 4, ‘сотни’: 2}. Если число превышает 999, необходимо выдать соответствующее сообщение с помощью console.log и вернуть пустой объект.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="z2" role="tabpanel" aria-labelledby="pills-profile-tab"><input id="Ex2" type="button" value="Начать" />
+                        <h3>Угадай правила и выйграй</h3>
+                        <div id="question"></div>
+                        <form name="answrs" id="answers" style="width: 100%">
+                            <input type="checkbox" id="0" value="1" name="answer" style="display: none">
+                            <label id="answer0" for="0" class="badge badge-primary" style="padding: 1em"></label>
+
+                            <input type="checkbox" id="1" value="1" name="answer" style="display: none">
+                            <label id="answer1" for="1" class="badge badge-primary" style="padding: 1em"></label>
+
+                            <input type="checkbox" id="2" value="1" name="answer" style="display: none">
+                            <label id="answer2" for="2" class="badge badge-primary" style="padding: 1em"></label>
+
+                            <input type="checkbox" id="3" value="1" name="answer" style="display: none">
+                            <label id="answer3" for="3" class="badge badge-primary" style="padding: 1em"></label>
+                        </form>
+                    </div>
+                    <p id="score"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="Objects.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
