@@ -1,0 +1,53 @@
+.hide{
+    opacity: 0;
+    padding: 1em;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.show{
+    transition: 1s;
+    opacity: 1;
+}
+
+h3{
+    display: inline-block;
+    margin: 0;
+}
+
+.chess{
+    padding: 1em;
+    display: grid;
+    grid-template: repeat(9, 45px) / repeat(9, 45px);
+}
+
+.blackCell{
+    background-color: black;
+}
+
+.blackCell i{
+    text-shadow: white 1px 1px 0, white -1px -1px 0,
+    white -1px 1px 0, white 1px -1px 0;
+}
+
+.chess div{
+    display: inline-block;
+    text-align: center;
+}
+
+i{
+    font-size: 2rem;
+    padding: 0.2em;
+    width: 100%;
+    text-align: center;
+    text-shadow: black 1px 1px 0, black -1px -1px 0,
+    black -1px 1px 0, black 1px -1px 0;
+}
+
+.whiteFig{
+    color: #bec3df;
+}
+
+.mx-sm-3 {
+    margin-left: 0!important;
+}
